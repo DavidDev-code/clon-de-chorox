@@ -1,6 +1,6 @@
 <?php
 /**
- * Template para mostrar páginas de categorías
+ * Template para mostrar paginas de categorias
  */
 get_header(); ?>
 <main>
@@ -24,7 +24,7 @@ get_header(); ?>
                     </header>
 
                     <?php
-                    // Obtiene los posts de la categoría actual
+                    // Obtiene los posts de la categoria actual
                     if (have_posts()) : ?>
                         <style>
                             .blog-list-items .entry img {
@@ -70,7 +70,7 @@ get_header(); ?>
 
                     <center>
                         <?php
-                        // Navegación de paginación
+                        
                         the_posts_pagination(array(
                             'prev_text' => '«',
                             'next_text' => '»',
